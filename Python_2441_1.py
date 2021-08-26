@@ -7,9 +7,9 @@
 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 '''
 
-N=int(input())
+N=int(input()) # 사용자로부터 정수 입력받기
 
-for i in range(N, 0, -1):
+for i in range(N, 0, -1): # i에 N부터 0이 되기 전까지 -1씩 하며 반복 
     for j in range(N-i):
         print(" ", end="")
     for k in range(i):
